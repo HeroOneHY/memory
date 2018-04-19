@@ -1,5 +1,5 @@
 //
-//  info.h
+//  infoViewController.h
 //  Memory
 //
 //  Created by yanhe on 2018/4/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface info : NSObject
-+(UIImage *)getImageWithName:(NSInteger)nameId;
+@interface infoViewController : UIViewController
+-(instancetype)initWithImage:(UIImage *)image;
 @end

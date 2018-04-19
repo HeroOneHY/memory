@@ -16,6 +16,8 @@
 		EF1BEEF42088B59200E2890C /* MemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEEF32088B59200E2890C /* MemoryUITests.m */; };
 		EF1BEF022088B71D00E2890C /* memory.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF1BEF012088B71D00E2890C /* memory.plist */; };
 		EF1BEF052088BA4300E2890C /* info.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEF042088BA4300E2890C /* info.m */; };
+		EF1BEF082088BBA200E2890C /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEF072088BBA200E2890C /* infoViewController.m */; };
+		EF1BEF0A2088C58C00E2890C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1BEF092088C58C00E2890C /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		EF1BEF012088B71D00E2890C /* memory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = memory.plist; sourceTree = "<group>"; };
 		EF1BEF032088BA4300E2890C /* info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
 		EF1BEF042088BA4300E2890C /* info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = info.m; sourceTree = "<group>"; };
+		EF1BEF062088BBA200E2890C /* infoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		EF1BEF072088BBA200E2890C /* infoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		EF1BEF092088C58C00E2890C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +109,13 @@
 		EF1BEECE2088B59000E2890C /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				EF1BEF092088C58C00E2890C /* 1.png */,
 				EF1BEECF2088B59000E2890C /* AppDelegate.h */,
 				EF1BEED02088B59000E2890C /* AppDelegate.m */,
 				EF1BEED22088B59000E2890C /* ViewController.h */,
 				EF1BEED32088B59000E2890C /* ViewController.m */,
+				EF1BEF062088BBA200E2890C /* infoViewController.h */,
+				EF1BEF072088BBA200E2890C /* infoViewController.m */,
 				EF1BEF032088BA4300E2890C /* info.h */,
 				EF1BEF042088BA4300E2890C /* info.m */,
 				EF1BEF012088B71D00E2890C /* memory.plist */,
@@ -240,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1BEF0A2088C58C00E2890C /* 1.png in Resources */,
 				EF1BEF022088B71D00E2890C /* memory.plist in Resources */,
 				EF1BEEDC2088B59200E2890C /* LaunchScreen.storyboard in Resources */,
 				EF1BEED92088B59200E2890C /* Assets.xcassets in Resources */,
@@ -270,6 +279,7 @@
 				EF1BEED42088B59000E2890C /* ViewController.m in Sources */,
 				EF1BEF052088BA4300E2890C /* info.m in Sources */,
 				EF1BEEDF2088B59200E2890C /* main.m in Sources */,
+				EF1BEF082088BBA200E2890C /* infoViewController.m in Sources */,
 				EF1BEED12088B59000E2890C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,15 +6,15 @@
 	<array>
 		<dict>
 			<key>item</key>
-			<string>1</string>
+			<string>weak实现原理</string>
 		</dict>
 		<dict>
 			<key>item</key>
-			<string>1</string>
+			<string>假如Controller太臃肿，如何优化？</string>
 		</dict>
 		<dict>
 			<key>item</key>
-			<string>1</string>
+			<string>消息转发机制原理：</string>
 		</dict>
 		<dict>
 			<key>item</key>

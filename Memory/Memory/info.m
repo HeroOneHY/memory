@@ -9,10 +9,11 @@
 #import "info.h"
 
 @implementation info
-+(NSString *)getStringWithName:(int)nameId{
++(UIImage *)getImageWithName:(NSInteger)nameId{
     switch (nameId) {
-        case 0:
-            
+        case 0:{
+            return [UIImage imageNamed:@"1"];
+        }
             break;
             
         default:
@@ -20,4 +21,5 @@
     }
     return nil;
 }
+
 @end

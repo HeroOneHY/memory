@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #define key @"cell"
+#import "infoViewController.h"
+#import "info.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, weak)UITableView *tabview;
 @property(nonatomic, strong)NSArray *dataArray;
@@ -52,6 +54,8 @@
     return 70;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    infoViewController *vc = [[infoViewController alloc]initWithImage:[info getImageWithName:indexPath.row]];
+    [self presentViewController:vc animated:NO completion:nil];
 }
 @end
