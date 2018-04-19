@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1BEED12088B59000E2890C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEED02088B59000E2890C /* AppDelegate.m */; };
+		EF1BEED42088B59000E2890C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEED32088B59000E2890C /* ViewController.m */; };
+		EF1BEED92088B59200E2890C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1BEED82088B59200E2890C /* Assets.xcassets */; };
+		EF1BEEDC2088B59200E2890C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1BEEDA2088B59200E2890C /* LaunchScreen.storyboard */; };
+		EF1BEEDF2088B59200E2890C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEEDE2088B59200E2890C /* main.m */; };
+		EF1BEEE92088B59200E2890C /* MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEEE82088B59200E2890C /* MemoryTests.m */; };
+		EF1BEEF42088B59200E2890C /* MemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEEF32088B59200E2890C /* MemoryUITests.m */; };
+		EF1BEF022088B71D00E2890C /* memory.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF1BEF012088B71D00E2890C /* memory.plist */; };
+		EF1BEF052088BA4300E2890C /* info.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BEF042088BA4300E2890C /* info.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1BEEE52088B59200E2890C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1BEEC42088B59000E2890C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1BEECB2088B59000E2890C;
+			remoteInfo = Memory;
+		};
+		EF1BEEF02088B59200E2890C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1BEEC42088B59000E2890C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1BEECB2088B59000E2890C;
+			remoteInfo = Memory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1BEECC2088B59000E2890C /* Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BEECF2088B59000E2890C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1BEED02088B59000E2890C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1BEED22088B59000E2890C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1BEED32088B59000E2890C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1BEED82088B59200E2890C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1BEEDB2088B59200E2890C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1BEEDD2088B59200E2890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1BEEDE2088B59200E2890C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1BEEE42088B59200E2890C /* MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BEEE82088B59200E2890C /* MemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTests.m; sourceTree = "<group>"; };
+		EF1BEEEA2088B59200E2890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1BEEEF2088B59200E2890C /* MemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1BEEF32088B59200E2890C /* MemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUITests.m; sourceTree = "<group>"; };
+		EF1BEEF52088B59200E2890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1BEF012088B71D00E2890C /* memory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = memory.plist; sourceTree = "<group>"; };
+		EF1BEF032088BA4300E2890C /* info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
+		EF1BEF042088BA4300E2890C /* info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = info.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1BEEC92088B59000E2890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEE12088B59200E2890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEEC2088B59200E2890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1BEEC32088B59000E2890C = {
+			isa = PBXGroup;
+			children = (
+				EF1BEECE2088B59000E2890C /* Memory */,
+				EF1BEEE72088B59200E2890C /* MemoryTests */,
+				EF1BEEF22088B59200E2890C /* MemoryUITests */,
+				EF1BEECD2088B59000E2890C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1BEECD2088B59000E2890C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BEECC2088B59000E2890C /* Memory.app */,
+				EF1BEEE42088B59200E2890C /* MemoryTests.xctest */,
+				EF1BEEEF2088B59200E2890C /* MemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1BEECE2088B59000E2890C /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BEECF2088B59000E2890C /* AppDelegate.h */,
+				EF1BEED02088B59000E2890C /* AppDelegate.m */,
+				EF1BEED22088B59000E2890C /* ViewController.h */,
+				EF1BEED32088B59000E2890C /* ViewController.m */,
+				EF1BEF032088BA4300E2890C /* info.h */,
+				EF1BEF042088BA4300E2890C /* info.m */,
+				EF1BEF012088B71D00E2890C /* memory.plist */,
+				EF1BEED82088B59200E2890C /* Assets.xcassets */,
+				EF1BEEDA2088B59200E2890C /* LaunchScreen.storyboard */,
+				EF1BEEDD2088B59200E2890C /* Info.plist */,
+				EF1BEEDE2088B59200E2890C /* main.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		EF1BEEE72088B59200E2890C /* MemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BEEE82088B59200E2890C /* MemoryTests.m */,
+				EF1BEEEA2088B59200E2890C /* Info.plist */,
+			);
+			path = MemoryTests;
+			sourceTree = "<group>";
+		};
+		EF1BEEF22088B59200E2890C /* MemoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BEEF32088B59200E2890C /* MemoryUITests.m */,
+				EF1BEEF52088B59200E2890C /* Info.plist */,
+			);
+			path = MemoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1BEECB2088B59000E2890C /* Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BEEF82088B59200E2890C /* Build configuration list for PBXNativeTarget "Memory" */;
+			buildPhases = (
+				EF1BEEC82088B59000E2890C /* Sources */,
+				EF1BEEC92088B59000E2890C /* Frameworks */,
+				EF1BEECA2088B59000E2890C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memory;
+			productName = Memory;
+			productReference = EF1BEECC2088B59000E2890C /* Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1BEEE32088B59200E2890C /* MemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BEEFB2088B59200E2890C /* Build configuration list for PBXNativeTarget "MemoryTests" */;
+			buildPhases = (
+				EF1BEEE02088B59200E2890C /* Sources */,
+				EF1BEEE12088B59200E2890C /* Frameworks */,
+				EF1BEEE22088B59200E2890C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1BEEE62088B59200E2890C /* PBXTargetDependency */,
+			);
+			name = MemoryTests;
+			productName = MemoryTests;
+			productReference = EF1BEEE42088B59200E2890C /* MemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1BEEEE2088B59200E2890C /* MemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1BEEFE2088B59200E2890C /* Build configuration list for PBXNativeTarget "MemoryUITests" */;
+			buildPhases = (
+				EF1BEEEB2088B59200E2890C /* Sources */,
+				EF1BEEEC2088B59200E2890C /* Frameworks */,
+				EF1BEEED2088B59200E2890C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1BEEF12088B59200E2890C /* PBXTargetDependency */,
+			);
+			name = MemoryUITests;
+			productName = MemoryUITests;
+			productReference = EF1BEEEF2088B59200E2890C /* MemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1BEEC42088B59000E2890C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yanhe;
+				TargetAttributes = {
+					EF1BEECB2088B59000E2890C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EF1BEEE32088B59200E2890C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EF1BEECB2088B59000E2890C;
+					};
+					EF1BEEEE2088B59200E2890C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EF1BEECB2088B59000E2890C;
+					};
+				};
+			};
+			buildConfigurationList = EF1BEEC72088B59000E2890C /* Build configuration list for PBXProject "Memory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1BEEC32088B59000E2890C;
+			productRefGroup = EF1BEECD2088B59000E2890C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1BEECB2088B59000E2890C /* Memory */,
+				EF1BEEE32088B59200E2890C /* MemoryTests */,
+				EF1BEEEE2088B59200E2890C /* MemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1BEECA2088B59000E2890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BEF022088B71D00E2890C /* memory.plist in Resources */,
+				EF1BEEDC2088B59200E2890C /* LaunchScreen.storyboard in Resources */,
+				EF1BEED92088B59200E2890C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEE22088B59200E2890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEED2088B59200E2890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1BEEC82088B59000E2890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BEED42088B59000E2890C /* ViewController.m in Sources */,
+				EF1BEF052088BA4300E2890C /* info.m in Sources */,
+				EF1BEEDF2088B59200E2890C /* main.m in Sources */,
+				EF1BEED12088B59000E2890C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEE02088B59200E2890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BEEE92088B59200E2890C /* MemoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1BEEEB2088B59200E2890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BEEF42088B59200E2890C /* MemoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1BEEE62088B59200E2890C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1BEECB2088B59000E2890C /* Memory */;
+			targetProxy = EF1BEEE52088B59200E2890C /* PBXContainerItemProxy */;
+		};
+		EF1BEEF12088B59200E2890C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1BEECB2088B59000E2890C /* Memory */;
+			targetProxy = EF1BEEF02088B59200E2890C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1BEEDA2088B59200E2890C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1BEEDB2088B59200E2890C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1BEEF62088B59200E2890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF1BEEF72088B59200E2890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1BEEF92088B59200E2890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = Memory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.Memory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1BEEFA2088B59200E2890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = Memory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.Memory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF1BEEFC2088B59200E2890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = MemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.MemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory.app/Memory";
+			};
+			name = Debug;
+		};
+		EF1BEEFD2088B59200E2890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = MemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.MemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory.app/Memory";
+			};
+			name = Release;
+		};
+		EF1BEEFF2088B59200E2890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = MemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.MemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memory;
+			};
+			name = Debug;
+		};
+		EF1BEF002088B59200E2890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W53TZACKD2;
+				INFOPLIST_FILE = MemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hero.MemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1BEEC72088B59000E2890C /* Build configuration list for PBXProject "Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BEEF62088B59200E2890C /* Debug */,
+				EF1BEEF72088B59200E2890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1BEEF82088B59200E2890C /* Build configuration list for PBXNativeTarget "Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BEEF92088B59200E2890C /* Debug */,
+				EF1BEEFA2088B59200E2890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1BEEFB2088B59200E2890C /* Build configuration list for PBXNativeTarget "MemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BEEFC2088B59200E2890C /* Debug */,
+				EF1BEEFD2088B59200E2890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1BEEFE2088B59200E2890C /* Build configuration list for PBXNativeTarget "MemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1BEEFF2088B59200E2890C /* Debug */,
+				EF1BEF002088B59200E2890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1BEEC42088B59000E2890C /* Project object */;
+}
